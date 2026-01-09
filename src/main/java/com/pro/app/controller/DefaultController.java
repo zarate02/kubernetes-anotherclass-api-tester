@@ -45,7 +45,7 @@ public class DefaultController {
 
     @GetMapping("/hello")
     public String hello(){
-        return "Welcome to Kubernetes Another Class";
+        return "Welcome to Kubernetes Another Class 222";
     }
 
     @GetMapping("/ready")
